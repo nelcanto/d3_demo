@@ -1,0 +1,20 @@
+{
+  "name": "d3-cast",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Carol <shuting.wu@nytweb.com>"
+  ],
+  "license": "BSD-2-Clause",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "^4.12.0"
+  }
+}

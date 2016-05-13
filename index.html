@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A d3 palyground</title>
+	<link rel="stylesheet" type="text/css" href="dist/css/main.css">
+</head>
+<body>
+	<div id="update_query">
+		<form class="well-home span6 form-horizontal" name="ajax-demo" id="ajax-demo">  
+		<div class="control-group">  
+		              <label class="control-label" for="book">Name</label>  
+		              <div class="controls">  
+		                <input type="text" id="book">  
+		              </div>  
+		</div>  
+		<div class="control-group">  
+		              <div class="controls">  
+		                <button type="submit" class="btn btn-success">Submit</button>  
+		              </div>  
+		 </div>  
+		</form>  
+		<text id="suggestion">suggest here</text>
+
+
+
+
+
+		<form>
+		<select name="users" onchange="showUser(this.value)">
+		  <option value="">Select a person:</option>
+		  <option value="xiaoming">xiaoming</option>
+		  <option value="hong">hong</option>
+		  <option value="3">Joseph Swanson</option>
+		  <option value="4">Glenn Quagmire</option>
+		  </select>
+		</form>
+		<br>
+		<div id="txtHint"><b>Person info will be listed here...</b></div>
+	</div>
+
+
+
+
+	<div id="container">
+		<svg id="main">
+		</svg>
+	</div>
+
+	<script type="text/javascript" src="bower_components/d3/d3.js"></script>
+	<script type="text/javascript" src="bower_components/lodash/dist/lodash.js"></script>
+	<script type="text/javascript" src="dist/scripts/app.js"></script>
+	<script type="text/javascript" src="scripts/insert_name.js"></script>
+</body>
+</html>
